@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Survey form created for a FreeCodeCamp project.</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="name" required />
+      <label id="email-label" for="name">Name</label>
+      <input id="email" type="email" placeholder="email" required />
+      <label id="number-label" for="name">Name</label>
+      <input id="number" type="number" min="0" max="10" placeholder="number" />
+      <select id="dropdown">
+        <option id="dropdown-option">Option 1</option>
+        <option id="dropdown-option-2">Option 12</option>
+      </select>
+      <input id="male" type="radio" name="gender" value="m" />
+      <label for="male">Male</label>
+      <input id="female" type="radio" name="gender" value="f" />
+      <label for="female">Female</label>
+      <input id="21" type="checkbox" name="age" value="21" />
+      <label for="21">21</label>
+      <input id="22" type="checkbox" name="age" value="22" />
+      <label for="22">22</label>
+      <input id="23" type="checkbox" name="age" value="23" />
+      <label for="23">23</label>
+      <textarea placeholder="additional comments"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
